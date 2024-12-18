@@ -101,13 +101,9 @@
           <div class="bg-white p-6 border hover:border-gray-300 rounded-xl shadow-all">
             <h2 class="text-xl font-bold">About Me</h2>
             <p class="text-sm text-gray-400 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione tempore
-              provident aspernatur distinctio? Alias aperiam sit dicta excepturi fuga perspiciatis
-              soluta reprehenderit.
-            </p>
-            <p class="text-sm text-gray-400">
-              Harum est vel a placeat dolorem sunt vitae aliquid aliquam quis earum iste reiciendis,
-              commodi eaque beatae fugit...
+              I am a junior developer specializing in backend development and software engineering.
+              Proficient in PHP, Laravel, and MySQL, I thrive on solving complex problems with efficient and scalable solutions.
+              A quick learner, I’m eager to adapt and grow in dynamic environments, bringing value to every project I undertake.
             </p>
           </div>
 
@@ -250,9 +246,8 @@
                 </div>
                 <p class="text-xs text-gray-500 mt-2 flex items-center">
                   <img src="@/assets/icons/calendar.svg" alt="calendar" class="w-3 h-3 mr-1">
-                  Oct 2024 - Nov 2024
+                  Aug 2021 - Present
                 </p>
-                <p class="text-sm mt-2">Delivered a high-quality flight search engine routes page within a 20-day deadline, quickly adapting to complex requirements and proactively enhancing functionality.</p>
               </li>
 
               <li class="border-b last:border-b-0 pb-8 last:pb-0">
@@ -265,9 +260,8 @@
                 </div>
                 <p class="text-xs text-gray-500 mt-2 flex items-center">
                   <img src="@/assets/icons/calendar.svg" alt="calendar" class="w-3 h-3 mr-1">
-                  Oct 2024 - Nov 2024
+                  Sep 2020 - Mar 2021
                 </p>
-                <p class="text-sm mt-2">Delivered a high-quality flight search engine routes page within a 20-day deadline, quickly adapting to complex requirements and proactively enhancing functionality.</p>
               </li>
 
             </ul>
