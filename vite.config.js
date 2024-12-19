@@ -15,6 +15,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5174, // Replace with your desired port
+    host: '0.0.0.0',
+    port: 5173,
   },
 })
