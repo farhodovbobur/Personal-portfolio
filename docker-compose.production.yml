@@ -22,7 +22,7 @@ services:
     volumes:
       - etc-letsencrypt:/etc/letsencrypt
       - www-certbot:/var/www/certbot
-    command: certonly --webroot -w /var/www/certbot --force-renewal --email info@rentapp.uz -d rentapp.uz --agree-tos
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email info@rentapp.uz -d farhodov.uz --agree-tos
     networks:
       - network
 
