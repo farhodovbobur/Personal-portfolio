@@ -9,8 +9,8 @@ services:
     volumes:
       - ./:/var/www
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
-      - ./certbot/conf/:/etc/letsencrypt
-      - ./certbot/www/:/var/www/certbot
+      - etc-letsencrypt:/etc/letsencrypt
+      - www-certbot:/var/www/certbot
     depends_on:
       - node
     networks:
@@ -20,16 +20,11 @@ services:
     image: certbot/certbot:latest
     container_name: certbot
     volumes:
-      - ./certbot/conf/:/etc/letsencrypt
-      - ./certbot/www/:/var/www/certbot
-    command: >
-      certonly --webroot -w /var/www/certbot 
-      --force-renewal 
-      --email farhodov.b.m@gmail.com 
-      --no-eff-email 
-      -d farhodov.uz 
-      -d www.farhodov.uz 
-      --agree-tos
+      - etc-letsencrypt:/etc/letsencrypt
+      - www-certbot:/var/www/certbot
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email info@rentapp.uz -d rentapp.uz --agree-tos
+    networks:
+      - network
 
   node:
     image: node:22
@@ -47,6 +42,10 @@ services:
       sh -c "npm install && npm run dev"
     networks:
       - network
+
+volumes:
+  www-certbot:
+  etc-letsencrypt:
 
 networks:
   network:
