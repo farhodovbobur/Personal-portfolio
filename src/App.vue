@@ -166,7 +166,7 @@
 
                       <div class="flex items-center">
                         <img src="@/assets/logos/mysql.svg" alt="mysql" class="w-6 h-6 mx-2"/>
-                        <span class="text-gray-800 text-sm">MySql</span>
+                        <span class="text-gray-800 text-sm">MySQL</span>
                       </div>
 
                       <div class="flex items-center">
@@ -209,7 +209,7 @@
 
                     <div class="flex items-center ">
                       <img src="@/assets/logos/wordpress.svg" alt="wordpress" class="w-6 h-6 mx-2"/>
-                      <span class="text-gray-800 text-sm">Wordpress</span>
+                      <span class="text-gray-800 text-sm">WordPress</span>
                     </div>
 
                     <div class="flex items-center ">
